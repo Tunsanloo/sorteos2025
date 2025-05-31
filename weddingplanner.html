@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Título del Artículo - Blog Sorteos Online</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+  <!-- Barra Superior -->
+  <div class="top-bar" style="width:100%;background:#fff;box-shadow:0 2px 8px rgba(0,0,0,0.04);display:flex;align-items:center;justify-content:space-between;gap:16px;padding:10px 0;z-index:100;">
+    <video autoplay loop muted class="top-bar-video__background">
+      <source src="./archivos/video_fundotreshierros.mp4" type="video/mp4">
+      Tu navegador no soporta video.
+    </video>
+    <div class="top-bar__logo" style="flex:1;text-align:center;">
+      <img src="./archivos/Logofloral_mrlo_weddingplanner.webp" alt="MR-LO-BLOG" style="height: 250px;">
+    </div>
+  </div>
+  <!-- Header -->
+  <header class="header">
+    <div class="header__container">
+      <h1 class="header__title">Mr. Lo Wedding Planner</h1>
+      <nav class="header__nav">
+        <ul>
+          <li><a href="#categorias">Categorías</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero del Artículo -->
+    <!-- Galería Destacada -->
+  <section id="galeria" class="galeria">
+    <div class="galeria__container">
+      <div class="galeria__item">
+        <img src="./archivos/boda_1.webp" alt="Elegancia en cada detalle">
+        <div class="galeria__caption">Elegancia en cada detalle</div>
+      </div>
+      <div class="galeria__item">
+        <img src="./archivos/boda_2.webp" alt="Eventos inolvidables">
+        <div class="galeria__caption">Eventos inolvidables</div>
+      </div>
+      <div class="galeria__item">
+        <img src="./archivos/boda_3.webp" alt="Momentos mágicos">
+        <div class="galeria__caption">Momentos mágicos</div>
+      </div>
+      <div class="galeria__item">
+        <img src="./archivos/boda_4.webp" alt="Estilo y exclusividad">
+        <div class="galeria__caption">Estilo y exclusividad</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Galerías de Bodas -->
+<section id="galeria-bodas" class="galeria-bodas">
+  <div class="galeria-bodas__container">
+    <h2 class="galeria-bodas__title">Momentos Inolvidables</h2>
+    <p class="galeria-bodas__description">Cada boda es única, llena de detalles mágicos y emociones inolvidables. Descubre algunas de nuestras mejores celebraciones.</p>
+
+    <div class="galeria-bodas__grid">
+      <div class="galeria-bodas__item">
+        <img src="./archivos/boda_galery21.webp" alt="Ceremonia al aire libre">
+        <p class="galeria-bodas__text">Elegancia en cada detalle</p>
+      </div>
+      <div class="galeria-bodas__item">
+        <img src="./archivos/boda_galery22.webp" alt="Recepción romántica">
+        <p class="galeria-bodas__text">Eventos inolvidables</p>
+      </div>
+      <div class="galeria-bodas__item">
+        <img src="./archivos/boda_galery23.webp" alt="Sesión fotográfica especial">
+        <p class="galeria-bodas__text">Momentos mágicos</p>
+      </div>
+      <div class="galeria-bodas__item">
+        <img src="./archivos/boda_galery24.webp" alt="Decoración y estilo">
+        <p class="galeria-bodas__text">Estilo y exclusividad</p>
+      </div>
+      <div class="galeria-bodas__item">
+        <img src="./archivos/boda_galery21.webp" alt="Celebración al atardecer">
+        <p class="galeria-bodas__text">Celebración al atardecer</p>
+      </div>
+      <div class="galeria-bodas__item">
+        <img src="./archivos/boda_galery22.webp" alt="Banquete elegante">
+        <p class="galeria-bodas__text">Banquete elegante</p>
+      </div>
+      <div class="galeria-bodas__item">
+        <img src="./archivos/boda_galery23.webp" alt="Baile de los novios">
+        <p class="galeria-bodas__text">Baile de los novios</p>
+      </div>
+      <div class="galeria-bodas__item">
+        <img src="./archivos/boda_galery24.webp" alt="Detalles florales">
+        <p class="galeria-bodas__text">Detalles florales</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sección Contacto con Imágenes -->
+<section id="contacto" class="contacto">
+  <div class="contacto__grid">
+    <!-- Columna 1, Fila 1 -->
+    <div class="contacto__imagen"><img src="./archivos/fotovertical_boda_1.webp" alt="Ceremonia al aire libre"></div>
+    <!-- Columna 2, Fila 1: Formulario -->
+    <div class="contacto__formulario">
+      <h2 class="contacto__titulo">Sigamos en Contacto</h2>
+      <p class="contacto__texto">Descubre más sobre nuestros servicios y cómo hacemos realidad bodas inolvidables.</p>
+      <form>
+        <input type="text" name="nombre" placeholder="Tu nombre" required>
+        <input type="email" name="correo" placeholder="Tu correo electrónico" required>
+        <textarea name="mensaje" placeholder="Escribe tu mensaje" required></textarea>
+        <button type="submit" class="contacto__boton">Enviar</button>
+      </form>
+    </div>
+    <!-- Columna 3, Fila 1 -->
+    <div class="contacto__imagen"><img src="./archivos/boda_2.webp" alt="Decoración romántica"></div>
+    <!-- Columna 1, Fila 2 -->
+    <div class="contacto__imagen"><img src="./archivos/boda_3.webp" alt="Recepción exclusiva"></div>
+    <!-- Columna 2, Fila 2 -->
+    <div class="contacto__imagen"><img src="./archivos/boda_4.webp" alt="Momentos mágicos"></div>
+    <!-- Columna 3, Fila 2 -->
+    <div class="contacto__imagen"><img src="./archivos/fotovertical_boda_2.webp" alt="Momentos mágicos"></div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer__container">
+    <p class="footer__text">&copy; 2025 <a href="https://www.facebook.com/profile.php?id=61576345600392">Hecho por Landing Pro Studio.</a>Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
