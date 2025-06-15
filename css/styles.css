@@ -855,3 +855,109 @@ footer {
     grid-row: auto;
   }
 }
+
+/* 🌟 Estilo General */
+#info {
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  background: linear-gradient(180deg, #f9f9f9 0%, #fff 100%);
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 1000px;
+  margin: 40px auto;
+}
+
+/* 🎀 Títulos Principales */
+.titulo {
+  font-size: 32px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* 📝 Párrafos de Descripción */
+.descripcion {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #444;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* 🔹 Secciones Individuales */
+.seccion {
+  margin-top: 30px;
+  padding: 24px;
+  background: #ffffff;
+  border-left: 6px solid #c0392b;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* ✨ Efecto Hover en Secciones */
+.seccion:hover {
+  transform: scale(1.02);
+}
+
+/* 🏷️ Títulos de las Secciones */
+.seccion h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #c0392b;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* 📋 Listas */
+.seccion ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.seccion ul li {
+  font-size: 18px;
+  padding: 6px 0;
+  color: #34495e;
+  display: flex;
+  align-items: center;
+}
+
+/* ✔️ Íconos en Listas */
+.seccion ul li::before {
+  content: "✔️";
+  color: #27ae60;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+/* 📱 Diseño Responsivo */
+@media (max-width: 768px) {
+  #info {
+    padding: 30px;
+  }
+
+  .titulo {
+    font-size: 28px;
+  }
+
+  .descripcion {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .seccion {
+    padding: 20px;
+  }
+
+  .seccion h2 {
+    font-size: 22px;
+  }
+
+  .seccion ul li {
+    font-size: 16px;
+  }
+}
